@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Learning TestNG]">
+  <test name="AnnotationAssertionTest(failed)">
+    <classes>
+      <class name="testng.learning.ParameterizationTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testng.learning.ParameterizationTest -->
+      <class name="testng.learning.AnnotationAssertionTest">
+        <methods>
+          <include name="doLoginTest"/>
+          <include name="beforeMethodTest"/>
+          <include name="skipTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="changePasswordTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="assertTest"/>
+          <include name="logoutTest"/>
+          <include name="afterMethodTest"/>
+        </methods>
+      </class> <!-- testng.learning.AnnotationAssertionTest -->
+    </classes>
+  </test> <!-- AnnotationAssertionTest(failed) -->
+</suite> <!-- Failed suite [Learning TestNG] -->

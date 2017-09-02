@@ -1,0 +1,8 @@
+<suite name="Learning TestNG" >
+	<test name="AnnotationAssertionTest" all-return-values="true">
+		<classes> <class name="testng.learning.AnnotationAssertionTest"/> </classes>
+	</test>
+	<test name="ParameterizationTest" all-return-values="true">
+		<classes> <class name="testng.learning.ParameterizationTest"/> </classes>
+	</test>
+</suite>

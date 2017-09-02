@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testng.learning.AnnotationAssertionTest">
+        <methods>
+          <include name="doLoginTest"/>
+          <include name="beforeMethodTest"/>
+          <include name="skipTest"/>
+          <include name="afterSuiteTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="changePasswordTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="assertTest"/>
+          <include name="logoutTest"/>
+          <include name="afterMethodTest"/>
+        </methods>
+      </class> <!-- testng.learning.AnnotationAssertionTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
